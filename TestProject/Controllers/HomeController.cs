@@ -10,7 +10,7 @@ namespace TestProject.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "This is a test site is maintained by suneeth";
+            ViewBag.Message = "This is a stable 1.0 version";
 
             return View();
         }
