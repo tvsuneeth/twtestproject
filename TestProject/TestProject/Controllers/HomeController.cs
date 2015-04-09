@@ -15,6 +15,13 @@ namespace TestProject.Controllers
             return View();
         }
 
+        public ActionResult SendMeANumber()
+        {
+
+            return Content("10");
+        }
+
+
         public ActionResult About()
         {
             ViewBag.Message = "Your app description page.";
