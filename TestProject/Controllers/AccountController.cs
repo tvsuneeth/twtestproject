@@ -66,6 +66,14 @@ namespace TestProject.Controllers
             return View();
         }
 
+
+        [AllowAnonymous]
+        public ActionResult WriteMe(strign msg)
+        {
+            return Content(msg);
+        }
+
+
         //
         // POST: /Account/Register
 
